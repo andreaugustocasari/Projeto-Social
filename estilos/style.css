@@ -19,6 +19,7 @@ main{
 }
 
 #celular{ 
+    margin-top: 60px;
     width: 311px;
     height: 627px;
     position: absolute;
@@ -26,6 +27,7 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
     background-image: url(../Imagens/frame-iphone.png);
+    background-repeat: no-repeat;
 }
 
 #tela{
@@ -34,4 +36,20 @@ main{
     left: 22px;
     width: 266px;
     height: 469px;
+}
+
+#botao{
+ text-align: center;
+}
+
+#botao > a > img{
+    width: 70px;
+    margin: 20px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+#botao img:hover{
+    border: 2px solid white;
+    transform: translate(-5px, -5px);
 }
