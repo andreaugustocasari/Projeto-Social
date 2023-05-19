@@ -15,11 +15,12 @@ main{
     position: relative;
     background-size: cover;
     background-color: black;
+    background-attachment: fixed;
     background-image: url(../Imagens/fundo-madeira.jpg);
 }
 
 #celular{ 
-    margin-top: 100px;
+    margin-top: 120px;
     width: 311px;
     height: 627px;
     position: absolute;
