@@ -26,6 +26,7 @@ main{
     height: 624px;
     margin-top: 120px;
     position: absolute;
+    margin-bottom: 50px;
     border-radius: 60px;
     background-repeat: no-repeat;
     transform: translate(-50%, -50%);
