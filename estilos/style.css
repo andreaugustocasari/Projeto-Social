@@ -19,16 +19,18 @@ main{
     background-image: url(../Imagens/fundo-madeira.jpg);
 }
 
-#celular{ 
-    margin-top: 120px;
-    width: 311px;
-    height: 627px;
-    position: absolute;
+#celular{
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-image: url(../Imagens/frame-iphone.png);
+    left: 50%; 
+    width: 307px;
+    height: 624px;
+    margin-top: 120px;
+    position: absolute;
+    border-radius: 60px;
     background-repeat: no-repeat;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 7px black;
+    background-image: url(../Imagens/frame-iphone.png);
 }
 
 #tela{
@@ -40,17 +42,23 @@ main{
 }
 
 #botao{
- text-align: center;
+    width: 400px;
+    display: block;
+    margin: auto;
 }
 
 #botao > a > img{
     width: 70px;
     margin: 20px;
     height: 70px;
-    border-radius: 50%;
+    border-radius: 100%;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 7px black;
 }
 
 #botao img:hover{
     border: 2px solid white;
-    transform: translate(-5px, -5px);
+    transform: translate(-10px, -10px);
+    box-shadow: 15px 15px 10px black;
+    transition: transform .5s, border .7s;
 }
